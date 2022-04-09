@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+
+
+
+header{
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+background-color: #0cbaba;
+background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+color: white;
+padding: 1rem;
+text-align: center;
+box-shadow: 0 0 10px 2px #111;
+height: 6rem;
+display: flex;
+justify-content: space-between;
+}
+
+
+body{
+    background-color: var(--body-color)
+}
+
+:root {
+    --body-color: rgb(231, 218, 218);
+    --main-color: #f0f2fa;
+    --heading-color: #1e202a;
+    --text-color: #63687e;
+    --border-color: gold
+  }
+  
+  .dark {
+    --body-color: rgb(48, 41, 41);
+    --main-color: #f0f2fa;
+    --heading-color: #1e202a;
+    --text-color: #63687e;
+    --border-color: gold
+  }
+
+  main {
+      width: 90%;
+      margin: 100px auto;
+      padding-top: 30px;
+      background-color: var(--main-color) ;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgba(178, 155, 177, 0.226);
+      border-radius: 1rem;
+      padding: .5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      /* text-align: center; */
+
+    }
+
+    .title{
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+form{
+  /* display: flex; */
+  gap:1rem;
+  text-align: center;
+
+}
+.add{
+  font-size: 1.8rem;
+  height: 3rem;
+  width: 25%;
+  border-radius: .5rem;
+}
+.input{
+  border-radius: .5rem;
+  height: 3rem;
+  width: 70%;
+
+}
+
+.removeAll{
+  font-size: 1.8rem;
+  height: 3rem;
+  width: 15%;
+  border-radius: .5rem;
+}
+
+
+.toggle{
+  font-size: 1.5rem;
+  height: 3rem;
+  width: 20%;
+  border-radius: .5rem;
+}
+
+.container{
+box-shadow: 5px 5px 5px rgb(93, 88, 88); */
+width: 100%;
+padding: 0.3rem;
+margin-top: 2rem;
+background-color: #62a8a6;
+border-radius: 1rem;
+box-shadow: 0 0 10px 0px rgb(93, 88, 88);
+}
+
+.task{
+  display: flex;
+  justify-content: space-evenly;
+  padding: .2rem;
+  height: 4rem;
+  border-bottom: .05rem solid rgb(46, 75, 64) 
+  /* margin: .5rem; */
+
+}
+
+.taskText{
+  width: 60%;
+  text-overflow: ellipsis;
+  font-size: 2rem;
+  padding: .5rem;
+
+ 
+
+}
+.btn{
+  font-size: 1.2rem;
+  height: 3rem;
+  width: 12%;
+  border-radius: .5rem;
+}
+.remove{
+}
+
+.edit{
+}
+
+.check{
+ 
+}
+
+
+
+
